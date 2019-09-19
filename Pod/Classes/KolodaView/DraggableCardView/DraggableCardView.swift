@@ -63,7 +63,7 @@ public class DraggableCardView: UIView, UIGestureRecognizerDelegate {
     private var overlayView: OverlayView?
     public private(set) var contentView: UIView?
     
-    private var panGestureRecognizer: UIPanGestureRecognizer!
+    public var panGestureRecognizer: UIPanGestureRecognizer!
     private var tapGestureRecognizer: UITapGestureRecognizer!
     private var animationDirectionY: CGFloat = 1.0
     private var dragDistance = CGPoint.zero
